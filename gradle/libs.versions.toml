@@ -10,7 +10,7 @@ material3 = "1.4.0"
 gradle = "9.2.0"
 kotlin = "2.3.20"
 
-libVersion = "0.0.1-beta1"
+libVersion = "0.0.1-beta2"
 runtime = "1.11.0"
 
 [libraries]
