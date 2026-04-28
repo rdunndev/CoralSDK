@@ -21,7 +21,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CoralSDK"
+rootProject.name = "coral-android-sdk"
 include("coral:ui")
 include("coral:theme")
 include(":test-app")
