@@ -10,8 +10,17 @@ material3 = "1.4.0"
 gradle = "9.2.0"
 kotlin = "2.3.20"
 
-libVersion = "0.0.1-beta3"
 runtime = "1.11.0"
+androidx-compose-activity = "1.13.0"
+androidx-core = "1.18.0"
+
+appconfig-compile-sdk= "37"
+appconfig-minsdk = "26"
+appconfig-sdk = "35"
+
+
+libVersion = "0.0.1-beta3"
+
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -24,7 +33,8 @@ material = { group = "com.google.android.material", name = "material", version.r
 androidx-material3 = { module = "androidx.compose.material3:material3", version.ref = "material3" }
 gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
 androidx-runtime = { group = "androidx.compose.runtime", name = "runtime", version.ref = "runtime" }
-
+androidx-compose-activity = { module = "androidx.activity:activity-compose", version.ref = "androidx-compose-activity" }
+androidx-core = { module = "androidx.core:core-ktx", version.ref = "androidx-core" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
