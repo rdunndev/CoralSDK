@@ -19,7 +19,7 @@ appconfig-minsdk = "26"
 appconfig-sdk = "35"
 
 
-libVersion = "0.0.1-beta3"
+libVersion = "0.0.1-beta4"
 
 
 [libraries]
