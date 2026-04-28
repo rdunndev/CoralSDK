@@ -16,10 +16,6 @@ android {
         compose = true
     }
 
-    composeOptions {
-        kotlinCompilerExtensionVersion = "2.3.20"
-    }
-
 }
 
 group = "com.rdunndev"
